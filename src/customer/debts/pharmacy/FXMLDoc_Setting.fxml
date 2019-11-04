@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="560.0" prefWidth="840.0" stylesheets="@../../../style/setting.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FXMLDocumentController_Setting">
+   <children>
+      <Label layoutX="244.0" layoutY="29.0" prefHeight="57.0" prefWidth="352.0" text="Account Setting" textFill="WHITE">
+         <font>
+            <Font name="DejaVu Serif Bold" size="38.0" />
+         </font>
+      </Label>
+      <AnchorPane id="setting_anc_sub" fx:id="setting_VBox_main" layoutX="300.0" layoutY="151.0" prefHeight="313.0" prefWidth="241.0">
+         <children>
+            <TextField id="setting_tf_username" fx:id="setting_tf_username" layoutX="36.0" layoutY="64.0" promptText="Username" />
+            <PasswordField id="setting_tf_password" fx:id="setting_tf_password" layoutX="35.0" layoutY="113.0" promptText="password" />
+            <PasswordField id="setting_tf_newPassword" fx:id="setting_tf_newPassword" layoutX="35.0" layoutY="164.0" promptText="new password" />
+            <PasswordField id="setting_tf_confirmNewpassword" fx:id="setting_tf_confirmNewpassword" layoutX="36.0" layoutY="212.0" promptText="confirm new password" />
+            <Button id="setting_b_changePass" fx:id="setting_b_changePass" layoutX="87.0" layoutY="266.0" mnemonicParsing="false" onAction="#updatePassword" text="Change" textFill="#575757" />
+         </children>
+      </AnchorPane>
+      <Button id="setting_b_home" fx:id="setting_b_home" layoutX="40.0" layoutY="489.0" mnemonicParsing="false" onAction="#moveToMain" styleClass="buttonStyle" stylesheets="@../../../style/homePageButton.css" />
+      <Label id="setting_l_icon" fx:id="setting_l_icon" layoutX="377.0" layoutY="93.0" prefHeight="89.0" prefWidth="87.0" />
+      <Label id="setting_l_deleteAccount" fx:id="setting_l_deleteAccount" layoutX="689.0" layoutY="502.0" onMouseClicked="#deleteAccount" text="Delete account?" textFill="#ee3636" />
+   </children>
+</AnchorPane>

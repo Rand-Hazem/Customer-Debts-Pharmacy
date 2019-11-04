@@ -1,0 +1,37 @@
+#AnchorPane{
+    -fx-background-image:url('/resource/debts_background.jpg') ;
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+}
+
+/***********************************************************************************************************************/
+#debts_anchPane_sub{
+    -fx-background-color: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(255, 255, 255, 0.8));
+}
+/***********************************************************************************************************************/
+.labelStyle{
+    -fx-text-fill: #fff;
+
+}
+
+/***********************************************************************************************************************/
+.textFieldStyle{
+    -fx-pref-width: 55px;
+   
+}
+/***********************************************************************************************************************/
+
+.buttomStyle_blueWithShadowBoxHover{
+    -fx-background-color: #2fb4c0;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+}
+
+.buttomStyle_blueWithShadowBoxHover:hover{
+    -fx-background-color: #60dce5;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 1),10, 0.4, 0, 0);
+}
+
+
+/***********************************************************************************************************************/
+

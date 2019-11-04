@@ -1,0 +1,53 @@
+
+#addProduct_anchPane_main{
+    -fx-background-image:url('/resource/add_product.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+    
+    
+}
+/*****************************************************************************************************/
+#addProduct_VBox_{
+    -fx-background-color: rgba(0,0,0,0.6);
+    -fx-background-radius: 15px;
+    -fx-padding: 15px;
+    -fx-vgap: 10px;
+}
+/*****************************************************************************************************/
+.labelStyle{
+    -fx-pref-width: 100px;
+     -fx-text-fill: #fff;
+     -fx-font: 15px sans-serif;
+    
+     
+}
+/*****************************************************************************************************/
+.HBoxStyle{
+    -fx-padding: 5px;
+     margin: 10px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-pref-width:387px;
+    -fx-pref-height: 47px;
+    
+}
+/*****************************************************************************************************/
+#addProduct_b_add{
+    -fx-background-color: #2fb4c0;
+    -fx-pref-width: 80px;
+    -fx-background-radius: 14px;
+    -fx-text-fill: #fff;
+    
+}
+#addProduct_b_add:hover{
+   -fx-background-color: #026572; 
+}
+
+/*****************************************************************************************************/
+
+/*****************************************************************************************************/
+
+#addProduct_rb_add,#addProduct_rb_edit {
+    margin: 20px;
+    -fx-text-fill: #fff;
+    
+}

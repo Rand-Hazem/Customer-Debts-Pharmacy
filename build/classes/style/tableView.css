@@ -1,0 +1,65 @@
+
+.table-view {
+    -fx-base: #fff; /* line under the column title*/
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-table-cell-border-color: transparent;
+    -fx-padding :0px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color:#68cdd8; /* 2fb4c0 */
+}
+
+
+.table-view .column-header, .table-view .filler{
+    -fx-size: 40px;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color: #fff;
+    -fx-border-insets: 0 10 1 0;
+    
+   
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: #fff;
+    -fx-font-weight: normal;
+}
+/***********************************************************************************************************************/
+
+/* Even row style */
+.table-row-cell:even, .table-cell:even{
+     -fx-background-color: rgba(255, 255, 255, 0.2);
+     -fx-text-fill: #fff;
+}
+
+/* Odd row style*/
+.table-row-cell:odd, .table-cell:odd{
+     -fx-background-color:rgba(0, 0, 0, 0.3);   /*  rgba(47, 180, 192, 0.5);  */
+     -fx-text-fill: #fff;
+}
+
+/** Hover **/
+.table-row-cell:hover{
+    -fx-background-color: rgba(47, 180, 192, 0.5);
+}
+
+
+/*****/
+
+.table-row-cell:empty, .table-cell:empty{
+    -fx-background-color: transparent;
+}
+
+/***********************************************************************************************************************/
+/* Hide the horizental bar */
+.table-view *.scroll-bar:horizontal{
+  -fx-opacity: 0;
+  -fx-pref-height: 0px;
+  -fx-pref-width: 0px; 
+}
+
+.table-view *.scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+/***********************************************************************************************************************/

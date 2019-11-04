@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="addUser_anchPain_root" prefHeight="560.0" prefWidth="840.0" stylesheets="@../../../style/addUser.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FXMLDocumentController_AddUser">
+   <children>
+      <AnchorPane id="addUser_anchPane_component" layoutX="272.0" layoutY="94.0" prefHeight="372.0" prefWidth="296.0">
+         <children>
+            <Label alignment="CENTER" layoutX="70.0" layoutY="24.0" text="Add User" textAlignment="CENTER" textFill="#393838">
+               <font>
+                  <Font name="KacstBook" size="35.0" />
+               </font>
+            </Label>
+            <TextField id="addUser_tf_username" fx:id="addUser_tf_username" layoutX="63.0" layoutY="89.0" promptText="Username" />
+            <PasswordField id="addUser_tf_password" fx:id="addUser_tf_password" layoutX="63.0" layoutY="141.0" promptText="Password" />
+            <PasswordField id="addUser_tf_confirmPass" fx:id="addUser_tf_confirmPass" layoutX="63.0" layoutY="194.0" promptText="Confirm Password" />
+            <Button id="addUser_b_add" fx:id="addUser_b_add" layoutX="107.0" layoutY="267.0" mnemonicParsing="false" onAction="#addUser" prefHeight="26.0" prefWidth="83.0" stylesheets="@../../../style/addUser.css" text="Add" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Button id="addUser_b_homePage" fx:id="addUser_b_homePage" layoutX="34.0" layoutY="492.0" mnemonicParsing="false" onAction="#moveToMain" styleClass="buttonStyle" stylesheets="@../../../style/homePageButton.css" />
+   </children>
+</AnchorPane>

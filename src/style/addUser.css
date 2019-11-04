@@ -1,0 +1,24 @@
+
+#addUser_anchPain_root{
+    
+    -fx-background-image: url('/resource/add_user_background.jpg');
+    -fx-background-size: 99.95% 100%;
+    -fx-background-repeat: no-repeat;
+    
+}
+
+#addUser_anchPane_component{
+    -fx-background-color: rgba(254,254,254,0.7);
+    -fx-background-radius: 15px;
+    
+}
+/***********************************************************************************************************************/
+ #addUser_b_add{
+    -fx-background-color: #2fb4c0;
+    -fx-background-radius: 14px;
+}
+
+#addUser_b_add:hover{
+ /*  box-shadow : 3px 3px 5px 6px #454545, -3px -3px -5px 6px #454545;*/
+   -fx-background-color: #026572;
+}
